@@ -141,6 +141,7 @@ header {
 	color: #fff;
 	max-width: 496px;
 	margin: 0 auto;
+	margin-bottom: 8px;
 }
 
 .button-purple {
@@ -231,7 +232,7 @@ header {
 	text-transform: capitalize;
 	text-align: center;
 	color: #2e2f42;
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .team-title {
@@ -264,12 +265,21 @@ header {
 }
 
 .team-title-wrapper {
-	margin: 32px 64px 8px 64px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.team-p-wrapper {
+	text-align: center;
 }
 
 .team-wrapper {
 	display: flex;
 	gap: 24px;
+}
+
+.team-text-wrapper {
+	padding: 32px 0;
 }
 
 /* ----------------Section-our-team end---------------- */
@@ -284,7 +294,7 @@ header {
 	text-transform: capitalize;
 	text-align: center;
 	color: #2e2f42;
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .section-portfolio {
@@ -303,7 +313,7 @@ header {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 .portfolio-text {
